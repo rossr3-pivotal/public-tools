@@ -77,7 +77,7 @@ do
       fi
 
       printline "Importing: ${OM_CMD} ${FILE_NAME}"
-      ${SCRIPTDIR}/om-linux -k -t ${OPSMAN_URL} -u ${OPSMAN_USER} -p $OPSMAN_PASSWD ${OM_CMD} ${DOWNLOADS}/${FILE_NAME}
+      ${SCRIPTDIR}/om-linux -k -t ${OPSMAN_URL} -u ${OPSMAN_USER} -p '$OPSMAN_PASSWD' ${OM_CMD} ${DOWNLOADS}/${FILE_NAME}
 
       IMPORTED=${SCRIPTDIR}/imported
       if [ ! -d ${IMPORTED} ]; then
@@ -85,7 +85,7 @@ do
       fi
 
       # zero-byte and archive file
-      echo > ${DOWNLOADS}/${FILE_NAME} && mv ${DOWNLOADS}/${FILE_NAME} ${IMPORTED}
+      # echo > ${DOWNLOADS}/${FILE_NAME} && mv ${DOWNLOADS}/${FILE_NAME} ${IMPORTED}
 
       printline "Imported: ${OM_CMD} ${FILE_NAME}"
 
