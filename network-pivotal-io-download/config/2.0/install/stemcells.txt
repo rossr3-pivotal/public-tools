@@ -1,4 +1,5 @@
 # all required stemcells for product tiles
 # [PRODUCT_SLUG] [PRODUCT_VERSION] [PRODUCT_FILE_ID]
-stemcells 3468.13 37821
-stemcells 3445.24 67012
+stemcells 3468.25 86649
+stemcells 3445.29 98107
+stemcells 3445.28 86648
