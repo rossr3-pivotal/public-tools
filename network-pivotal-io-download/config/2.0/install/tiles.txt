@@ -1,5 +1,9 @@
 # Initial product tiles for Ops Manager
 # [PRODUCT_SLUG] [PRODUCT_VERSION] [PRODUCT_FILE_ID]
-elastic-runtime 2.0.0   40254
-p-metrics       1.9.5   40114
-p-mysql         1.10.11 77288
+#elastic-runtime	2.0.9	104391
+apm	1.4.3	32013
+pivotal-mysql		2.2.4	64123
+p-redis		1.11.3	60436
+p-rabbitmq 	1.11.8	55186
+p-healthwatch 1.1.6	68106
+p-spring-cloud-services 1.5.2 55392
