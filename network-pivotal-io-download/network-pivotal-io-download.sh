@@ -77,7 +77,7 @@ do
       fi
 
       printline "Importing: ${OM_CMD} ${FILE_NAME}"
-      ${SCRIPTDIR}/om-linux -k -t ${OPSMAN_URL} -u ${OPSMAN_USER} -p '$OPSMAN_PASSWD' ${OM_CMD} ${DOWNLOADS}/${FILE_NAME}
+      ${SCRIPTDIR}/om-linux -k -t ${OPSMAN_URL} -u ${OPSMAN_USER} -p $OPSMAN_PASSWD ${OM_CMD} ${DOWNLOADS}/${FILE_NAME}
 
       IMPORTED=${SCRIPTDIR}/imported
       if [ ! -d ${IMPORTED} ]; then
