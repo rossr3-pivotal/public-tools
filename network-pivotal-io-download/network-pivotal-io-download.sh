@@ -85,7 +85,7 @@ do
       fi
 
       # zero-byte and archive file
-      # echo > ${DOWNLOADS}/${FILE_NAME} && mv ${DOWNLOADS}/${FILE_NAME} ${IMPORTED}
+      echo > ${DOWNLOADS}/${FILE_NAME} && mv ${DOWNLOADS}/${FILE_NAME} ${IMPORTED}
 
       printline "Imported: ${OM_CMD} ${FILE_NAME}"
 
