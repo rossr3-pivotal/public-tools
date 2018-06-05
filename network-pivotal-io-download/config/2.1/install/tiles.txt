@@ -13,7 +13,7 @@ p-rabbitmq 	1.12.4	138338
 p-healthwatch 1.2.2	145945
 p-spring-cloud-services 1.5.3 120843
 # windows pas
-pas-windows	2.1.6	146122
+#pas-windows	2.1.6	146122
 
 
 
