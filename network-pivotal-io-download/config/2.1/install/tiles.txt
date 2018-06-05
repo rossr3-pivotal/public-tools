@@ -1,18 +1,20 @@
 # Initial product tiles for Ops Manager 2.1
 # [PRODUCT_SLUG] [PRODUCT_VERSION] [PRODUCT_FILE_ID]
-# elastic-runtime	2.0.9	104391
-# 104982 is the small footprint I think
-elastic-runtime   2.1.0   104982
-# 104972 is the full ERT
-# elastic-runtime	2.1.0   104972
-apm	1.5.0	90314
-p-mysql			1.10.12	87255
+# 144708 is the small footprint I think
+elastic-runtime   2.1.6   144708
+# 144700 is the full ERT
+# elastic-runtime	2.1.6   144700
+apm	1.4.4	125496
+p-mysql			1.10.13	114147
 # version 2 of mysql isn't the version required for SCS
-#pivotal-mysql		2.2.4	98734
-p-redis		1.11.3	94537
-p-rabbitmq 	1.11.8	88738
-p-healthwatch 1.1.6	103069
-p-spring-cloud-services 1.5.2 88958
+#pivotal-mysql		2.3.0	149087
+p-redis		1.12.1	144435
+p-rabbitmq 	1.12.4	138338
+p-healthwatch 1.2.2	145945
+p-spring-cloud-services 1.5.3 120843
+# windows pas
+pas-windows	2.1.6	146122
+
 
 
 
